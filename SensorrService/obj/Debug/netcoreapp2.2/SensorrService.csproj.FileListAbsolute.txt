@@ -1,0 +1,14 @@
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\bin\Debug\netcoreapp2.2\SensorrService.deps.json
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\bin\Debug\netcoreapp2.2\SensorrService.runtimeconfig.json
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\bin\Debug\netcoreapp2.2\SensorrService.runtimeconfig.dev.json
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\bin\Debug\netcoreapp2.2\SensorrService.dll
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\bin\Debug\netcoreapp2.2\SensorrService.pdb
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.csprojAssemblyReference.cache
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.csproj.CoreCompileInputs.cache
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.RazorAssemblyInfo.cache
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.RazorAssemblyInfo.cs
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.AssemblyInfoInputs.cache
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.AssemblyInfo.cs
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.RazorTargetAssemblyInfo.cache
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.dll
+D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.pdb
