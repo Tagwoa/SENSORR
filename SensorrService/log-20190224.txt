@@ -1,0 +1,70 @@
+2019-02-24 18:45:35.100 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+2019-02-24 18:45:35.178 +01:00 [Information] Executing endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 18:45:35.202 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "SensorrService.Controllers.ValuesController.Get (SensorrService)"
+2019-02-24 18:45:35.221 +01:00 [Information] Executing action method "SensorrService.Controllers.ValuesController.Get (SensorrService)" - Validation state: Valid
+2019-02-24 18:45:35.227 +01:00 [Warning] Request start st 24/02/2019 17:45:35
+2019-02-24 18:45:35.233 +01:00 [Information] Executed action method "SensorrService.Controllers.ValuesController.Get (SensorrService)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.5682ms.
+2019-02-24 18:45:35.250 +01:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-02-24 18:45:35.349 +01:00 [Information] Executed action "SensorrService.Controllers.ValuesController.Get (SensorrService)" in 141.294ms
+2019-02-24 18:45:35.351 +01:00 [Information] Executed endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 18:45:35.361 +01:00 [Information] Request finished in 263.5243ms 200 application/json; charset=utf-8
+2019-02-24 18:45:37.379 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+2019-02-24 18:45:37.383 +01:00 [Information] Executing endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 18:45:37.385 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "SensorrService.Controllers.ValuesController.Get (SensorrService)"
+2019-02-24 18:45:37.388 +01:00 [Information] Executing action method "SensorrService.Controllers.ValuesController.Get (SensorrService)" - Validation state: Valid
+2019-02-24 18:45:37.391 +01:00 [Warning] Request start st 24/02/2019 17:45:37
+2019-02-24 18:45:37.393 +01:00 [Information] Executed action method "SensorrService.Controllers.ValuesController.Get (SensorrService)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.7443ms.
+2019-02-24 18:45:37.396 +01:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-02-24 18:45:37.398 +01:00 [Information] Executed action "SensorrService.Controllers.ValuesController.Get (SensorrService)" in 10.7355ms
+2019-02-24 18:45:37.402 +01:00 [Information] Executed endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 18:45:37.407 +01:00 [Information] Request finished in 25.6832ms 200 application/json; charset=utf-8
+2019-02-24 18:45:39.210 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+2019-02-24 18:45:39.212 +01:00 [Information] Executing endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 18:45:39.215 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "SensorrService.Controllers.ValuesController.Get (SensorrService)"
+2019-02-24 18:45:39.218 +01:00 [Information] Executing action method "SensorrService.Controllers.ValuesController.Get (SensorrService)" - Validation state: Valid
+2019-02-24 18:45:39.222 +01:00 [Warning] Request start st 24/02/2019 17:45:39
+2019-02-24 18:45:39.225 +01:00 [Information] Executed action method "SensorrService.Controllers.ValuesController.Get (SensorrService)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.465ms.
+2019-02-24 18:45:39.227 +01:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-02-24 18:45:39.231 +01:00 [Information] Executed action "SensorrService.Controllers.ValuesController.Get (SensorrService)" in 12.18ms
+2019-02-24 18:45:39.233 +01:00 [Information] Executed endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 18:45:39.236 +01:00 [Information] Request finished in 28.18ms 200 application/json; charset=utf-8
+2019-02-24 18:45:39.898 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+2019-02-24 18:45:39.903 +01:00 [Information] Executing endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 18:45:39.908 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "SensorrService.Controllers.ValuesController.Get (SensorrService)"
+2019-02-24 18:45:39.911 +01:00 [Information] Executing action method "SensorrService.Controllers.ValuesController.Get (SensorrService)" - Validation state: Valid
+2019-02-24 18:45:39.912 +01:00 [Warning] Request start st 24/02/2019 17:45:39
+2019-02-24 18:45:39.915 +01:00 [Information] Executed action method "SensorrService.Controllers.ValuesController.Get (SensorrService)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.7138ms.
+2019-02-24 18:45:39.917 +01:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-02-24 18:45:39.920 +01:00 [Information] Executed action "SensorrService.Controllers.ValuesController.Get (SensorrService)" in 8.9646ms
+2019-02-24 18:45:39.924 +01:00 [Information] Executed endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 18:45:39.927 +01:00 [Information] Request finished in 32.9967ms 200 application/json; charset=utf-8
+2019-02-24 19:58:18.529 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44327/api/values  
+2019-02-24 19:58:18.615 +01:00 [Information] Executing endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 19:58:18.633 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "SensorrService.Controllers.ValuesController.Get (SensorrService)"
+2019-02-24 19:58:18.651 +01:00 [Information] Executing action method "SensorrService.Controllers.ValuesController.Get (SensorrService)" - Validation state: Valid
+2019-02-24 19:58:18.680 +01:00 [Warning] Request start st 24/02/2019 18:58:18
+2019-02-24 19:58:18.686 +01:00 [Information] Executed action method "SensorrService.Controllers.ValuesController.Get (SensorrService)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 28.7892ms.
+2019-02-24 19:58:18.703 +01:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-02-24 19:58:18.858 +01:00 [Information] Executed action "SensorrService.Controllers.ValuesController.Get (SensorrService)" in 217.3461ms
+2019-02-24 19:58:18.862 +01:00 [Information] Executed endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 19:58:18.866 +01:00 [Information] Request finished in 343.5356ms 200 application/json; charset=utf-8
+2019-02-24 19:58:18.934 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44327/favicon.ico  
+2019-02-24 19:58:18.940 +01:00 [Information] Request finished in 5.9913ms 404 
+2019-02-24 22:25:51.718 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+2019-02-24 22:25:51.814 +01:00 [Information] Executing endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 22:25:51.846 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "SensorrService.Controllers.ValuesController.Get (SensorrService)"
+2019-02-24 22:25:51.896 +01:00 [Information] Executing action method "SensorrService.Controllers.ValuesController.Get (SensorrService)" - Validation state: Valid
+2019-02-24 22:25:51.898 +01:00 [Warning] Request start st 24/02/2019 21:25:51
+2019-02-24 22:25:51.904 +01:00 [Information] Executed action method "SensorrService.Controllers.ValuesController.Get (SensorrService)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.506ms.
+2019-02-24 22:25:51.916 +01:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-02-24 22:25:51.994 +01:00 [Information] Executed action "SensorrService.Controllers.ValuesController.Get (SensorrService)" in 142.4686ms
+2019-02-24 22:25:51.996 +01:00 [Information] Executed endpoint '"SensorrService.Controllers.ValuesController.Get (SensorrService)"'
+2019-02-24 22:25:52.002 +01:00 [Information] Request finished in 288.2427ms 200 application/json; charset=utf-8
+2019-02-24 22:25:52.853 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico  
+2019-02-24 22:25:52.861 +01:00 [Information] Request finished in 7.3756ms 404 
+2019-02-24 22:26:04.120 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/ping  
+2019-02-24 22:26:04.123 +01:00 [Information] Request finished in 3.7587ms 404 
+2019-02-24 22:47:06.273 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+2019-02-24 22:47:06.335 +01:00 [Information] Request finished in 66.1862ms 200 
+2019-02-24 22:49:16.055 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+2019-02-24 22:49:16.112 +01:00 [Information] Request finished in 60.2761ms 200 

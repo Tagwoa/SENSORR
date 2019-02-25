@@ -18,7 +18,7 @@ namespace SensorrService
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>(); //This is to configure how the web server class runs
+            WebHost.CreateDefaultBuilder(args)                
+                .UseStartup<Startup>(); 
     }
 }

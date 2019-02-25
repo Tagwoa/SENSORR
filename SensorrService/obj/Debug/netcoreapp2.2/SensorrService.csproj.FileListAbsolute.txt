@@ -12,3 +12,17 @@ D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.
 D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.RazorTargetAssemblyInfo.cache
 D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.dll
 D:\Fontys\Paul\Dael\Sensorr\SensorrService\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.pdb
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\bin\Debug\netcoreapp2.2\SensorrService.deps.json
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\bin\Debug\netcoreapp2.2\SensorrService.runtimeconfig.json
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\bin\Debug\netcoreapp2.2\SensorrService.runtimeconfig.dev.json
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\bin\Debug\netcoreapp2.2\SensorrService.dll
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\bin\Debug\netcoreapp2.2\SensorrService.pdb
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.csprojAssemblyReference.cache
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.csproj.CoreCompileInputs.cache
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.RazorAssemblyInfo.cache
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.RazorAssemblyInfo.cs
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.AssemblyInfoInputs.cache
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.AssemblyInfo.cs
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.RazorTargetAssemblyInfo.cache
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.dll
+C:\Users\gebruiker\Source\Repos\SENSORR\SensorrService\obj\Debug\netcoreapp2.2\SensorrService.pdb

@@ -4,59 +4,62 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Serilog;
+using Serilog.Events;
+
 
 namespace SensorrService
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private IConfiguration _config;
+        public Startup(IConfiguration config)
         {
-            Configuration = configuration;
+            _config = config;
+
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel
+                .Information()
+                .WriteTo.RollingFile("log-{Date}.txt", LogEventLevel.Information)
+                .WriteTo.Seq("http://localhost:5341")
+                .CreateLogger();                
         }
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        /// <summary>
-        /// Things like dependency injection and services that we are going to use in the application 
-        /// Swagger and login can be added here!
-        /// </summary>
-        /// <param name="services"></param>
+        // This method gets called by the runtime. Use this method to add services to the container.      
         public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddTransient<Model.Repository>(); // Inject the Repository in the services
+        {           
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);           
+            services.AddLogging();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        /// <summary>
-        /// The application will be instructed to use the Middleware into the pipeline
-        /// Here is how request goes down from top to bottom
-        /// </summary>
-        /// <param name="app"></param>
-        /// <param name="env"></param>
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.       
+    
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            //LoggerFactory.AddSerilog();
+            //loggerFactory.AddConsole(minLevel: LogLevel.Warning);
+            loggerFactory.AddSerilog();
 
-            if (env.IsDevelopment()) //This give us access to the hosting environment
+            if (env.IsDevelopment()) 
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+
+            app.Run(async (context) => {
+                await context.Response
+                .WriteAsync(_config["MyKey"]);
+            });
 
             app.UseHttpsRedirection();
-            app.UseMvc(); //Use the Middleware in a particular pipeline
+            app.UseMvc(); 
         }
     }
 }
